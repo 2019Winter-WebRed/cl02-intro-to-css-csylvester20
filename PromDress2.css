@@ -1,0 +1,38 @@
+/*
+* Chloe Sylvester
+* Due Date
+* Project Name and Description
+*/
+
+/* The universal selector */
+
+* {
+    
+}
+
+/* Body attributes here */
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: azure; 
+    font-family: cursive;
+}
+
+h1 {
+    background-color: lightskyblue; /* color for background */
+    color: white; /* color of text */
+}
+
+p {
+    /* type selector for ALL paragraphs */
+    color: navy;
+}
+
+#redText { /* use an id to change text to red */
+    color: red;
+}
+
+.maroonText { /* use a class to change text to maroon in different kinds of elements*/
+    color: maroon; 
+}
